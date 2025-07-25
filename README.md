@@ -1,16 +1,24 @@
-# signscope
+signscope
 
 Real-time ASL to Speech Translator
+# SignScope ✋🗣️
 
-## Getting Started
+SignScope is an ASL-to-Speech translator that uses your camera to detect hand signs and convert them into spoken words. Designed for quick, offline, real-time use.
 
-This project is a starting point for a Flutter application.
+ 💡 Features
+- Live ASL sign recognition via camera
+- Converts gestures to voice + text
+- Offline-first with on-device ML
+- Clean mobile UI (Flutter)
 
-A few resources to get you started if this is your first Flutter project:
+ 🛠️ Built With
+- Flutter
+- MediaPipe
+- TensorFlow Lite
+- Android Studio
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+ 🚀 Getting Started
+1. Clone the repo
+2. Run `flutter pub get`
+3. Launch on emulator or real device
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
